@@ -1,0 +1,121 @@
+body{
+    background: -moz-linear-gradient(45deg, #e9e581 0%, #e9e581 6%, #2b2b2b 15%, #2b2b2b 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #e9e581), color-stop(6%, #e9e581), color-stop(15%, #2b2b2b), color-stop(100%, #2b2b2b)); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, #e9e581 0%, #e9e581 6%, #2b2b2b 15%, #2b2b2b 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, #e9e581 0%, #e9e581 6%, #2b2b2b 15%, #2b2b2b 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, #e9e581 0%, #e9e581 6%, #2b2b2b 15%, #2b2b2b 100%); /* ie10+ */
+background: linear-gradient(45deg, #e9e581 0%, #e9e581 6%, #2b2b2b 15%, #2b2b2b 100%); /* w3c */
+}
+#title {
+    text-align: center;
+    font-family: 'Oswald', Verdana MS;
+    color: #de1b1b;
+    font-size: 50;
+    text-decoration: none;
+}
+#title a{
+    color: #de1b1b;
+    text-decoration: none;
+    display: block;
+}
+
+div {
+    
+}
+
+.menu {
+    font-family: 'Oswald', Verdana MS;
+    color: #de1b1b;
+    font-size: 20;
+    text-align: right;
+}
+
+.menu ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+.menu ul li { display: inline; }
+
+.menu ul li a{
+    text-decoration: none;
+    padding: .2em 1em;
+    color: #de1b1b;
+    transition: ease-in-out 0.1s;
+}
+
+#current{
+      background-color: #e9e581;
+}
+.menu ul li a:hover
+{ 
+color: #de1b1b;
+background-color: #e9e581;
+}
+
+.page {
+    font-family: 'Oswald', Verdana MS;
+    text-align: center;
+    color: #de1b1b;
+    font-size: 35;
+}
+
+#name {
+    width: 85%;
+}
+
+#content {
+    text-align: center;
+    color: #f6f6f6;
+    font-family: 'Oswald', Verdana MS;
+    font-size: 20;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#form {
+    -webkit-border-radius: 25px;
+}
+#submit {
+    font-family: 'Oswald', Verdana MS;
+    font-size: 15px;
+    color: #f6f6f6;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #2b2b2b;
+    border-radius: 15px;
+    -webkit-transition: 0.25s, ease-in-out;
+
+}
+#submit:hover, #submit:focus{
+    background-color: #e9e581;
+    color: #de1b1b;
+}
+#portfolio ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#portfolio ul li { display: inline; }
+
+#portfolio ul li a
+{
+text-decoration: none;
+font-family: 'Oswald', Verdana MS;
+padding: .2em 1em;
+color: #f6f6f6;
+    font-size: 20;
+    -webkit-transition: .1s ease-in-out;
+}
+
+#portfolio ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
